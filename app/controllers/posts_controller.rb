@@ -3,7 +3,7 @@ class PostsController < ApplicationController
     @posts = Post.order(id: "DESC")
   end
 
-  
+  リクエストを処理する
 
   def create
     
