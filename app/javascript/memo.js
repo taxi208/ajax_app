@@ -23,7 +23,7 @@ function post (){
     // console.log(formDate)
     const XHR = new XMLHttpRequest();
     // console.assertlog(formData)
-    XHR.open("POST", "/post", true);
+    XHR.open("POST", "/posts", true);
     XHR.responseType = "json";
     XHR.send(formData);
     XHR.onload = () => {
